@@ -2,12 +2,12 @@
 <manifest>
 
   <!-- Device Trees -->
-  <project path="device/asus/X01BD" name="LineageOS/android_device_asus_X01BD" remote="github" revision="lineage-16.0" />
+  <project path="device/asus/X01BD" name="LineageOS/android_device_asus_X01BD" remote="github.com" revision="lineage-16.0" />
 
   <!-- Kernel Trees -->
-  <project path="kernel/asus/sdm660" name="LineageOS/android_kernel_asus_sdm660" remote="github" revision="lineage-16.0" />
+  <project path="kernel/asus/sdm660" name="LineageOS/android_kernel_asus_sdm660" remote="github.com" revision="lineage-16.0" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="lineage-16.0" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github.com" revision="lineage-16.0" />
 
 </manifest>
