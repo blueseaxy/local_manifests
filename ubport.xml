@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <remote name="TheMuppets"
+            fetch="https://github.com/TheMuppets" />
+    <remote name="Lineage"
+              fetch="https://github.com/LineageOS" />
+    
+   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="Lineage" revision="lineage-16.0" />
+  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Lineage" revision="lineage-16.0" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="TheMuppets" revision="lineage-16.0" />
+</manifest>
