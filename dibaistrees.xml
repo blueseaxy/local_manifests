@@ -2,7 +2,7 @@
 <manifest>
 
    <remote name="PQEnablers"
-            fetch="hhttps://github.com/PQEnablers-Devices" />
+            fetch="https://github.com/PQEnablers-Devices" />
     <remote name="Blueseaxy"
               fetch="https://github.com/blueseaxy" />
     
