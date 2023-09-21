@@ -2,17 +2,15 @@
 <manifest>
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="blueseaxy/device_xiaomi_blossom" remote="github" revision="aosp" />
-
-  <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="blueseaxy/android_hardware_mediatek" remote="github" revision="lineage-20" />
+  <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="pixel" />
 
   <!-- Kernel Trees -->
-  <project path="device/xiaomi/blossom-kernel" name="blueseaxy/device_xiaomi_blossom-kernel" remote="github" revision="lineage-20">
-    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
-  </project>
+  <project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="13" />
+  
+  <!-- kernel headers -->
+  <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="blueseaxy/proprietary_vendor_xiaomi_blossom" remote="github" revision="lineage-20" />
+  <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="thirteen" />
 
 </manifest>
