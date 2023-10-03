@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <remote name="PQEnablers"
+            fetch="https://github.com/PQEnablers-Devices" />
+    <remote name="Blueseaxy"
+              fetch="https://github.com/blueseaxy" />
+    
+    <!-- device -->
+   <project path="device/xiaomi/ruby" name="android_device_xiaomi_ruby" remote="Blueseaxy" revision="lineage-20" />
+   <!-- kernel -->
+  <project path="kernel/xiaomi/mt6877" name="android_kernel_xiaomi_mt6877" remote="PQEnablers" revision="lineage-20" />
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/ruby" name="android_vendor_xiaomi_ruby" remote="PQEnablers" revision="lineage-20" />
+  <!-- Hardware -->
+   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="PQEnablers" revision="lineage-20-foss" />
+</manifest>
