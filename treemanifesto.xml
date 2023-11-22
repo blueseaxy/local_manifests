@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- This is LOCAL_MANIFEST trees for Asus Zenfone Max Pro M2 ( X01BD ) , targeted for AOSP Project -->
+ 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="blueseaxy/device_xiaomi_blossom" remote="github" revision="aosp" />
+  <project path="device/asus/X01BD" name="PixelExperience-Devices/device_asus_X01BD" remote="github" revision="thirteen" />
 
-  <!-- Hardware Supports -->
-  <project path="hardware/mediatek" name="blueseaxy/android_hardware_mediatek" remote="github" revision="lineage-20" />
-
+  <!-- SDM660-common Trees -->
+  <project path="device/asus/sdm660-common" name="PixelExperience-Devices/device_asus_sdm660-common" remote="github" revision="thirteen"/>
+  
   <!-- Kernel Trees -->
-  <project path="device/xiaomi/blossom-kernel" name="blueseaxy/device_xiaomi_blossom-kernel" remote="github" revision="lineage-20">
-    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
-  </project>
+  <project path="kernel/asus/sdm660" name="Whot1966/kernel_asus_sdm660-4.19" remote="github" revision="lineage-20.0" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="blueseaxy/proprietary_vendor_xiaomi_blossom" remote="github" revision="lineage-20" />
+  <project path="vendor/asus/X01BD" name="blueseaxy/vendor_asus_X01BD" remote="github" revision="thirteen"/>
+  
+    <!-- Vendor-common Trees -->
+  <project path="vendor/asus/sdm660-common" name="blueseaxy/vendor_asus_sdm660-common" remote="github" revision="thirteen"/>
 
 </manifest>
